@@ -1,0 +1,5 @@
+dubbo.application.name=product-service
+dubbo.registry.protocol=zookeeper
+dubbo.registry.address=192.168.56.129:2181
+dubbo.protocol.port=20881
+server.port=8080

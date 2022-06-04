@@ -1,0 +1,5 @@
+# Project exclude paths
+/v7-api/v7-product-api/target/
+/v7-basic/v7-commons/target/
+/v7-basic/v7-entity/target/
+/v7-basic/v7-mapper/target/
