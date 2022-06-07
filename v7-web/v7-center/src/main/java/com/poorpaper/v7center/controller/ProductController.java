@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.poorpaper.api.IProductService;
 import com.poorpaper.entity.TProduct;
 import com.poorpaper.vo.ProductVO;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,6 +51,6 @@ public class ProductController {
     public String add(ProductVO vo) {
         Long newId = productService.add(vo);
         // 跳转回到第一页，按照添加时间排序
-        return "redirect:/product/page/1/10";
+        return "redirect:/product/page/1/5";
     }
 }
