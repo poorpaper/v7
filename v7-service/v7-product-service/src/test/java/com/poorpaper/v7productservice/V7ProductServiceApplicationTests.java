@@ -2,13 +2,17 @@ package com.poorpaper.v7productservice;
 
 import com.github.pagehelper.PageInfo;
 import com.poorpaper.api.IProductService;
+import com.poorpaper.api.IProductTypeService;
 import com.poorpaper.entity.TProduct;
+import com.poorpaper.entity.TProductType;
 import com.poorpaper.vo.ProductVO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.sql.DataSource;
+import java.sql.SQLException;
 import java.util.List;
 
 @SpringBootTest
@@ -16,6 +20,25 @@ class V7ProductServiceApplicationTests {
 
     @Autowired
     private IProductService productService;
+
+    @Autowired
+    private IProductTypeService productTypeService;
+
+    @Autowired
+    private DataSource dataSource;
+
+    @Test
+    public void poolTest() throws SQLException {
+        System.out.println(dataSource.getConnection());
+    }
+
+    @Test
+    public void listTypeTest() {
+        List<TProductType> list = productTypeService.list();
+        for (TProductType productType : list) {
+            System.out.println(productType.getName());
+        }
+    }
 
     @Test
     void contextLoads() {

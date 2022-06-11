@@ -7,24 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="v7-index" />
         <module name="v7" />
+        <module name="v7-mapper" />
+        <module name="v7-search-service" />
+        <module name="v7-entity" />
+        <module name="v7-service" />
         <module name="v7-web" />
         <module name="v7-product-api" />
-        <module name="v7-mapper" />
         <module name="v7-commons" />
         <module name="v7-product-service" />
         <module name="v7-api" />
         <module name="v7-center" />
+        <module name="v7-search-api" />
         <module name="v7-basic" />
-        <module name="v7-entity" />
-        <module name="v7-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="v7-center" options="-parameters" />
+      <module name="v7-index" options="-parameters" />
       <module name="v7-product-service" options="-parameters" />
+      <module name="v7-search-service" options="-parameters" />
     </option>
   </component>
 </project>
