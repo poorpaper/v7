@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/v7-web/v7-index/pom.xml" />
         <option value="$PROJECT_DIR$/v7-api/v7-search-api/pom.xml" />
         <option value="$PROJECT_DIR$/v7-service/v7-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/v7-search/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-service/v7-search-service/v7-item/pom.xml" />
       </list>
     </option>
   </component>

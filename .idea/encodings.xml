@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/v7-service/v7-search-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/v7-web/v7-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/v7-web/v7-index/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v7-web/v7-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v7-web/v7-search/src/main/java" charset="UTF-8" />
   </component>
 </project>
