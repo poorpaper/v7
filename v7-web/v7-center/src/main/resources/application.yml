@@ -7,9 +7,16 @@ dubbo:
 
 server:
   port: 9090
+
 spring:
   thymeleaf:
     cache: false
+  rabbitmq:
+    host: 192.168.56.129
+    port: 5672
+    username: java1907
+    password: 123
+    virtual-host: /java1907
 
 #上传文件
 fdfs:

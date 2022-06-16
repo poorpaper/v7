@@ -20,6 +20,12 @@
         <option value="$PROJECT_DIR$/v7-service/v7-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/v7-web/v7-search/pom.xml" />
         <option value="$PROJECT_DIR$/v7-service/v7-search-service/v7-item/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/item/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/v7-item/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-rabbitmq-java/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-springboot-redis/pom.xml" />
       </list>
     </option>
   </component>

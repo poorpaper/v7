@@ -10,9 +10,13 @@
         <module name="v7-index" />
         <module name="v7" />
         <module name="v7-mapper" />
+        <module name="v7-springboot-redis" />
         <module name="v7-search-service" />
         <module name="v7-search" />
+        <module name="v7-temp" />
+        <module name="v7-rabbitmq-java" />
         <module name="v7-entity" />
+        <module name="v7-redis" />
         <module name="v7-service" />
         <module name="v7-web" />
         <module name="v7-product-api" />
@@ -25,15 +29,20 @@
         <module name="v7-basic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="item" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="item" options="-parameters" />
       <module name="v7-center" options="-parameters" />
       <module name="v7-index" options="-parameters" />
       <module name="v7-item" options="-parameters" />
       <module name="v7-product-service" options="-parameters" />
       <module name="v7-search" options="-parameters" />
       <module name="v7-search-service" options="-parameters" />
+      <module name="v7-springboot-redis" options="-parameters" />
     </option>
   </component>
 </project>

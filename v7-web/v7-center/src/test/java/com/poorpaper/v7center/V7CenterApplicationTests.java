@@ -23,7 +23,7 @@ class V7CenterApplicationTests {
 
     @Test
     public void uploadTest() throws FileNotFoundException {
-        File file = new File("H:\\newProject\\v7\\v7-web\\v7-center\\ILSVRC2012_test_00009781.jpg");
+        File file = new File("H:\\zhx95\\DUTS-TE\\DUTS-TE-Image\\ILSVRC2012_test_00000034.jpg");
         FileInputStream fileInputStream = new FileInputStream(file);
         StorePath storePath = client.uploadImageAndCrtThumbImage(fileInputStream, file.length(), "jpg", null);
         System.out.println(storePath.getPath());

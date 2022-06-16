@@ -3,8 +3,11 @@ package com.poorpaper.v7center.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
 import com.poorpaper.api.IProductService;
+import com.poorpaper.commons.constant.MQConstant;
 import com.poorpaper.entity.TProduct;
 import com.poorpaper.vo.ProductVO;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,6 +24,9 @@ public class ProductController {
 
     @Reference
     private IProductService productService;
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     @RequestMapping("get/{id}")
     @ResponseBody
@@ -50,6 +56,12 @@ public class ProductController {
     @PostMapping("add")
     public String add(ProductVO vo) {
         Long newId = productService.add(vo);
+
+        // 发送一个消息到消息中间件
+        // map.put("type", "add")
+        // map.put("data", newId)
+        rabbitTemplate.convertAndSend(MQConstant.EXCHANGE.CENTER_PRODUCT_EXCHANGE, "product.add", newId);
+
         // 跳转回到第一页，按照添加时间排序
         return "redirect:/product/page/1/5";
     }
