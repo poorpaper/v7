@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="v7-index" />
-        <module name="v7" />
+        <module name="v7-user-api" />
         <module name="v7-mapper" />
         <module name="v7-springboot-redis" />
         <module name="v7-search-service" />
@@ -22,6 +22,7 @@
         <module name="v7-product-api" />
         <module name="v7-commons" />
         <module name="v7-product-service" />
+        <module name="v7-user-service" />
         <module name="v7-api" />
         <module name="v7-center" />
         <module name="v7-search-api" />
@@ -43,6 +44,7 @@
       <module name="v7-search" options="-parameters" />
       <module name="v7-search-service" options="-parameters" />
       <module name="v7-springboot-redis" options="-parameters" />
+      <module name="v7-user-service" options="-parameters" />
     </option>
   </component>
 </project>

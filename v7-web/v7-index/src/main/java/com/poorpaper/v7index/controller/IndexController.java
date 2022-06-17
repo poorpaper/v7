@@ -30,6 +30,7 @@ public class IndexController {
     @RequestMapping("listType")
     @ResponseBody
     public ResultBean listType() {
+        System.out.println("controller listType");
         List<TProductType> list = productTypeService.list();
         return new ResultBean("200", list);
     }
