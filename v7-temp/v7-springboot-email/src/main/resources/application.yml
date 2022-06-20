@@ -1,5 +1,0 @@
-spring:
-  mail:
-    host: smtp.163.com
-    username: poorpaper@163.com
-    password: password
