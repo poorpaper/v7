@@ -19,7 +19,7 @@ spring:
     password: password
 
 email:
-  server: poorpaperdesire@163.com
+  server: 163@163.com
 
 server:
   port: 8086
