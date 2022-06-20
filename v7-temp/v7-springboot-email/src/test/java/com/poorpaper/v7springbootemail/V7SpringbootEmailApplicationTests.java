@@ -26,8 +26,8 @@ class V7SpringbootEmailApplicationTests {
     public void sendSimpleMailTest() {
         // 1.构建邮件对象
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("poorpaperdesire@163.com");
-        message.setTo("sdfghjkzx@qq.com");
+        message.setFrom("163@163.com");
+        message.setTo("163@qq.com");
         message.setSubject("热烈庆祝我公司与网易达成长期的战略合作关系");
         message.setText("您好，赶紧跑路吧");
 
@@ -40,8 +40,8 @@ class V7SpringbootEmailApplicationTests {
         // 1.构建邮件对象
         MimeMessage message = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
-        helper.setFrom("poorpaperdesire@163.com");
-        helper.setTo("sdfghjkzx@qq.com");
+        helper.setFrom("163@163.com");
+        helper.setTo("163@qq.com");
         helper.setSubject("热烈庆祝我公司与网易达成长期的战略合作关系");
         helper.setText("您好，赶紧跑去<a href='https://www.baidu.com'>度娘</a>吧", true);
 
@@ -54,8 +54,8 @@ class V7SpringbootEmailApplicationTests {
         // 1.构建邮件对象
         MimeMessage message = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
-        helper.setFrom("poorpaperdesire@163.com");
-        helper.setTo("sdfghjkzx@qq.com");
+        helper.setFrom("163@163.com");
+        helper.setTo("163@qq.com");
         helper.setSubject("❤生 日 大 祝 福❤");
         Context context = new Context();
         context.setVariable("username", "poorpaper");
