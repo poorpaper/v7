@@ -3,6 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+src/main/java/com/poorpaper/v7smsservice/service/SMSService.java
+src/test/java/com/poorpaper/v7smsservice/V7SmsServiceApplicationTests.java
 
 ### STS ###
 .apt_generated

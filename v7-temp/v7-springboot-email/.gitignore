@@ -3,6 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+src/main/resources/application.yml
+src/test/java/com/poorpaper/v7springbootemail/V7SpringbootEmailApplicationTests.java
 
 ### STS ###
 .apt_generated

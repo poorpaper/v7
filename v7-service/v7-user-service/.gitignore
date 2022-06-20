@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+com/poorpaper/v7userservice/service/UserServiceImpl.java
 
 ### STS ###
 .apt_generated
