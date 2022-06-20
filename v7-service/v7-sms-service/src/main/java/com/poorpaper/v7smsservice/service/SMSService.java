@@ -66,7 +66,7 @@ public class SMSService implements ISMS {
     public SMSResponse sendBirthdayGreeting(String phone, String username) {
         //凭证信息
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou",
-                "LTAI5tPEfWt4bcdFKqEdH9jm", "fF30XuOKqtc7uKNvGGSWyZhIUDCUZ1");
+                "accessIdKey", "accessIdSercert");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //1.0  2.0
