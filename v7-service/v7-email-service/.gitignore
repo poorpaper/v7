@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 src/main/resources/application.yml
+src/test/java/com/poorpaper/v7emailservice/V7EmailServiceApplicationTests.java
 
 ### STS ###
 .apt_generated
