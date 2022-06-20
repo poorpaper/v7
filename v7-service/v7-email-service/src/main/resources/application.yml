@@ -1,0 +1,25 @@
+dubbo:
+  application:
+    name: email-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.56.129:2181
+  protocol:
+    port: 28815
+spring:
+  rabbitmq:
+    host: 192.168.56.129
+    port: 5672
+    username: java1907
+    password: 123
+    virtual-host: /java1907
+  mail:
+    host: smtp.163.com
+    username: poorpaperdesire@163.com
+    password: JJBQRREUSPZQMWHO
+
+email:
+  server: poorpaperdesire@163.com
+
+server:
+  port: 8086

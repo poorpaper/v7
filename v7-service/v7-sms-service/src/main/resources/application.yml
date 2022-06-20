@@ -1,0 +1,24 @@
+dubbo:
+  application:
+    name: sms-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.56.129:2181
+  protocol:
+    port: 28814
+
+spring:
+  redis:
+    host: 192.168.56.129
+    port: 6379
+    password: java1907
+  rabbitmq:
+    host: 192.168.56.129
+    port: 5672
+    username: java1907
+    password: 123
+    virtual-host: /java1907
+
+server:
+  port: 8085
+

@@ -28,6 +28,16 @@
         <option value="$PROJECT_DIR$/v7-temp/v7-springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/v7-api/v7-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/v7-service/v7-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/v7-register/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-aliyun-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-api/v7-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-service/v7-sms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-email/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-springboot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-api/v7-email-api/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-service/v7-email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-temp/v7-timer/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/v7-sso/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

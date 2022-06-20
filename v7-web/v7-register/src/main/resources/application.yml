@@ -1,0 +1,12 @@
+
+dubbo:
+  application:
+    name: web-register
+  registry:
+    protocol: zookeeper
+    address: 192.168.56.129:2181
+server:
+  port: 9094
+spring:
+  thymeleaf:
+    cache: false

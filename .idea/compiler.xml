@@ -8,42 +8,60 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="v7-index" />
-        <module name="v7-user-api" />
-        <module name="v7-mapper" />
-        <module name="v7-springboot-redis" />
-        <module name="v7-search-service" />
-        <module name="v7-search" />
+        <module name="v7-sms-service" />
+        <module name="v7-email-service" />
         <module name="v7-temp" />
         <module name="v7-rabbitmq-java" />
-        <module name="v7-entity" />
-        <module name="v7-redis" />
         <module name="v7-service" />
-        <module name="v7-web" />
         <module name="v7-product-api" />
         <module name="v7-commons" />
         <module name="v7-product-service" />
+        <module name="v7-search-api" />
+        <module name="v7-email" />
+        <module name="v7-sms-api" />
+        <module name="v7-user-api" />
+        <module name="v7-mapper" />
+        <module name="v7-aliyun-sms" />
+        <module name="v7-springboot-redis" />
+        <module name="v7-email-api" />
+        <module name="v7-timer" />
+        <module name="v7-search-service" />
+        <module name="v7-search" />
+        <module name="v7-entity" />
+        <module name="v7-redis" />
+        <module name="v7-web" />
         <module name="v7-user-service" />
         <module name="v7-api" />
         <module name="v7-center" />
-        <module name="v7-search-api" />
         <module name="v7-item" />
+        <module name="v7-register" />
+        <module name="v7-sso" />
         <module name="v7-basic" />
+        <module name="v7-springboot-email" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="item" target="1.8" />
+      <module name="timer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="item" options="-parameters" />
+      <module name="timer" options="-parameters" />
       <module name="v7-center" options="-parameters" />
+      <module name="v7-email-service" options="-parameters" />
       <module name="v7-index" options="-parameters" />
       <module name="v7-item" options="-parameters" />
       <module name="v7-product-service" options="-parameters" />
+      <module name="v7-register" options="-parameters" />
       <module name="v7-search" options="-parameters" />
       <module name="v7-search-service" options="-parameters" />
+      <module name="v7-sms-service" options="-parameters" />
+      <module name="v7-springboot-email" options="-parameters" />
       <module name="v7-springboot-redis" options="-parameters" />
+      <module name="v7-sso" options="-parameters" />
+      <module name="v7-timer" options="-parameters" />
       <module name="v7-user-service" options="-parameters" />
     </option>
   </component>
