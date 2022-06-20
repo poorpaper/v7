@@ -15,8 +15,8 @@ spring:
     virtual-host: /java1907
   mail:
     host: smtp.163.com
-    username: poorpaperdesire@163.com
-    password: JJBQRREUSPZQMWHO
+    username: 163@163.com
+    password: password
 
 email:
   server: poorpaperdesire@163.com
