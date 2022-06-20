@@ -14,7 +14,7 @@ class V7SmsServiceApplicationTests {
 
     @Test
     void contextLoads() {
-        SMSResponse smsResponse = sms.sendCodeMessage("13207665516", "77777");
+        SMSResponse smsResponse = sms.sendCodeMessage("12345678910", "77777");
         System.out.println(smsResponse.getCode());
     }
 
