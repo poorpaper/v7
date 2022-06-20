@@ -23,14 +23,14 @@ pom.xml
 */
 public class SendSms {
     public static void main(String[] args) {
-        sendCodeMessage("13207665516","7777");
+        sendCodeMessage("12345678910","7777");
     }
 
     //抽取一个方法出来，方便复用
     public static SMSResponse sendCodeMessage(String phone,String code){
         //凭证信息
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou",
-                "LTAI5tPEfWt4bcdFKqEdH9jm", "fF30XuOKqtc7uKNvGGSWyZhIUDCUZ1");
+                "accessIdKey", "accessIdSercret");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //1.0  2.0
@@ -50,7 +50,7 @@ public class SendSms {
         request.putQueryParameter("PhoneNumbers", phone);
         //模板信息
         request.putQueryParameter("SignName", "阿里云短信测试");
-        request.putQueryParameter("TemplateCode", "SMS_154950909");
+        request.putQueryParameter("TemplateCode", "12345678910");
         request.putQueryParameter("TemplateParam", "{\"code\":\""+code+"\"}");
         try {
             CommonResponse response = client.getCommonResponse(request);
