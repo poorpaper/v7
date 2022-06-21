@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="v7-index" />
+        <module name="v7-jwt" />
         <module name="v7-sms-service" />
         <module name="v7-email-service" />
         <module name="v7-temp" />

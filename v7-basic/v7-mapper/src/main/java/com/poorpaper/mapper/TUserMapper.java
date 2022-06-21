@@ -15,4 +15,6 @@ public interface TUserMapper extends IBaseDao<TUser, Long> {
     List<TUser> selectByUserName(String userName);
     List<TUser> selectByPhone(String phone);
     List<TUser> selectByEmail(String email);
+
+    TUser selectByIdentification(String username);
 }

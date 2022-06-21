@@ -11,6 +11,8 @@ public interface IUserService extends IBaseService<TUser, Long> {
     public ResultBean checkEmailExists(String email);
 
     public ResultBean generateCode(String identification);
+    public ResultBean checkLogin(TUser user);
+    public ResultBean checkIsLogin(String uuid);
 
     // 添加用户，是否可以用默认的实现？
     // 可。（默认插入）
