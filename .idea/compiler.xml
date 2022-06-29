@@ -13,6 +13,7 @@
         <module name="v7-email-service" />
         <module name="v7-temp" />
         <module name="v7-rabbitmq-java" />
+        <module name="v7-cart" />
         <module name="v7-service" />
         <module name="v7-product-api" />
         <module name="v7-commons" />
@@ -30,7 +31,9 @@
         <module name="v7-search" />
         <module name="v7-entity" />
         <module name="v7-redis" />
+        <module name="v7-cart-service" />
         <module name="v7-web" />
+        <module name="v7-cart-api" />
         <module name="v7-user-service" />
         <module name="v7-api" />
         <module name="v7-center" />
@@ -50,6 +53,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="item" options="-parameters" />
       <module name="timer" options="-parameters" />
+      <module name="v7-cart" options="-parameters" />
+      <module name="v7-cart-service" options="-parameters" />
       <module name="v7-center" options="-parameters" />
       <module name="v7-email-service" options="-parameters" />
       <module name="v7-index" options="-parameters" />
