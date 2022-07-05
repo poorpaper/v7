@@ -20,6 +20,7 @@
         <module name="v7-product-service" />
         <module name="v7-search-api" />
         <module name="v7-email" />
+        <module name="order" />
         <module name="v7-sms-api" />
         <module name="v7-user-api" />
         <module name="v7-mapper" />
@@ -52,6 +53,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="item" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="timer" options="-parameters" />
       <module name="v7-cart" options="-parameters" />
       <module name="v7-cart-service" options="-parameters" />

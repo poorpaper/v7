@@ -70,8 +70,8 @@ public class CartController {
                             HttpServletResponse response) {
         String userToken = (String) request.getAttribute("user");
 
-        System.out.println("*********************");
-        System.out.println(userToken);
+//        System.out.println("*********************");
+//        System.out.println(userToken);
 
         if (userToken != null) {
             // 说明已登录

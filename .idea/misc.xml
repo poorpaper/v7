@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/v7-api/v7-cart-api/pom.xml" />
         <option value="$PROJECT_DIR$/v7-service/v7-cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/v7-web/v7-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/v7-web/order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
